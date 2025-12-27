@@ -42,8 +42,8 @@ tpeek -l 0.0.0.0:8000 -t 127.0.0.1:6379 -hex
 
 | Flag | Description | Default |
 | --- | --- | --- |
-| `-l` | Local address and port to listen on | `` |
-| `-t` | Target service address and port | `` |
+| `-l` | Local address and port to listen on |  |
+| `-t` | Target service address and port |  |
 | `-hex` | Enables full hexadecimal dump mode | `false` |
 
 
@@ -60,6 +60,7 @@ TPeek is designed to observe the dialogue between two applications without the c
 ## License
 
 GNU Affero General Public License v3.0 (AGPL-3.0)
+
 
 
 
