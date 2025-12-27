@@ -15,7 +15,7 @@ A lightweight, zero-dependency TCP transparent proxy designed for deep traffic i
 ### From Source
 
 ```bash
-(sudo) wget https://github.com/michelphp/wf/releases/download/1.0.0/tpeek-linux -O /usr/local/bin/tpeek
+(sudo) wget https://github.com/michelphp/tpeek/releases/download/1.0.0/tpeek-linux -O /usr/local/bin/tpeek
 (sudo) chmod +x /usr/local/bin/tpeek
 ```
 
@@ -60,4 +60,5 @@ TPeek is designed to observe the dialogue between two applications without the c
 ## License
 
 GNU Affero General Public License v3.0 (AGPL-3.0)
+
 
