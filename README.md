@@ -15,8 +15,8 @@ A lightweight, zero-dependency TCP transparent proxy designed for deep traffic i
 ### From Source
 
 ```bash
-(sudo) wget https://github.com/michelphp/tpeek/releases/download/1.0.0/tpeek-linux -O /usr/local/bin/tpeek
-(sudo) chmod +x /usr/local/bin/tpeek
+sudo wget https://github.com/michelphp/tpeek/releases/download/1.0.0/tpeek-linux -O /usr/local/bin/tpeek
+sudo chmod +x /usr/local/bin/tpeek
 ```
 
 
@@ -42,8 +42,8 @@ tpeek -l 0.0.0.0:8000 -t 127.0.0.1:6379 -hex
 
 | Flag | Description | Default |
 | --- | --- | --- |
-| `-l` | Local address and port to listen on | `0.0.0.0:8000` |
-| `-t` | Target service address and port | `127.0.0.1:3306` |
+| `-l` | Local address and port to listen on | `` |
+| `-t` | Target service address and port | `` |
 | `-hex` | Enables full hexadecimal dump mode | `false` |
 
 
@@ -60,5 +60,6 @@ TPeek is designed to observe the dialogue between two applications without the c
 ## License
 
 GNU Affero General Public License v3.0 (AGPL-3.0)
+
 
 
